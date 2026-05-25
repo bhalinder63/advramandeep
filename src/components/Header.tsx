@@ -85,20 +85,6 @@ export default function Header({ onOpenBookings, onOpenAdmin, adminCount }: Head
 
           {/* User Utilities & Call to Action */}
           <div className="flex items-center space-x-3">
-            {/* Private Portal access with pending requests indicator */}
-            <button
-              onClick={onOpenAdmin}
-              className="p-2 text-navy hover:text-gold hover:bg-gold/10 relative transition-all rounded-full group"
-              title="Confidential Officer Panel"
-              id="admin-dashboard-btn"
-            >
-              <Shield className="w-5 h-5" />
-              {adminCount > 0 && (
-                <span className="absolute top-0.5 right-0.5 w-4.5 h-4.5 bg-gold text-white font-mono text-[9px] font-bold flex items-center justify-center rounded-full animate-pulse border border-white">
-                  {adminCount}
-                </span>
-              )}
-            </button>
 
             <button
               onClick={() => scrollToSection('contact-cta')}

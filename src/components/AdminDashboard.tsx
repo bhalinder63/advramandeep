@@ -98,9 +98,7 @@ export default function AdminDashboard({ isOpen, onClose, requests, onUpdateRequ
         {/* Header */}
         <div className="bg-navy text-white p-6 flex justify-between items-center border-b border-gold/30">
           <div className="flex items-center gap-3">
-            <Shield className="w-6 h-6 text-gold" />
             <div>
-              <h2 className="font-serif text-xl md:text-2xl font-bold tracking-tight">Privileged Counsel Dashboard</h2>
               <p className="text-xs text-white/70 font-mono">CONFIDENTIAL CASE AND CONFLICT MONITOR</p>
             </div>
           </div>
