@@ -1,0 +1,6 @@
+{
+  "name": "Ramandeep Singh Law Office",
+  "description": "Premier Defense in Criminal & PMLA Matters website, with practice details, insights, and a booking management system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
